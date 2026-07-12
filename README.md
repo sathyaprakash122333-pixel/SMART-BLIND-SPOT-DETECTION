@@ -186,3 +186,6 @@ Notes
 Data is stored in JSON for simplicity, not in a database.
 You can clear backend/data/events.json any time to reset demo data.
 The seeded sample data helps the frontend show charts immediately during development.
+this help to find the blind sport in the vehiche while turnig that help for a safty travel.
+reducs the accidents in the turning areas.
+alert the owner/driver while turning in a area where there is trafic so the drive can be aware of the near by cars and bikes and travel safely.
