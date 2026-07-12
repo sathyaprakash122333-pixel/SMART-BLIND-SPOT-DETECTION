@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Space+Grotesk:wght@500;700&display=swap");
+
+:root {
+  --bg-950: #040912;
+  --bg-900: #07101a;
+  --bg-875: #0b1421;
+  --panel: rgba(12, 22, 36, 0.92);
+  --panel-strong: rgba(15, 27, 44, 0.96);
+  --border: rgba(138, 164, 200, 0.15);
+  --text-primary: #ecf6ff;
+  --text-secondary: #9cb2cf;
+  --text-muted: #6e84a3;
+  --cyan: #1dd3ff;
+  --blue: #4d7cff;
+  --green: #2ad49c;
+  --yellow: #ffd166;
+  --red: #ff5d73;
+  --white-soft: rgba(255, 255, 255, 0.08);
+  --shadow-lg: 0 20px 60px rgba(2, 8, 23, 0.45);
+  --radius-xl: 28px;
+  --radius-lg: 22px;
+  --radius-md: 16px;
+  --font-heading: "Space Grotesk", "Segoe UI", sans-serif;
+  --font-body: "DM Sans", "Segoe UI", sans-serif;
+}

@@ -1,0 +1,241 @@
+{
+  "latest": {
+    "online": true,
+    "lastUpdated": "2026-04-06T10:36:00+05:30",
+    "totalReadings": 18,
+    "event": {
+      "id": "evt-demo0001",
+      "timestamp": "2026-04-06T10:36:00+05:30",
+      "leftDistance": 199.09,
+      "rightDistance": 200.72,
+      "leftSwitch": false,
+      "rightSwitch": true,
+      "leftLevel": "safe",
+      "rightLevel": "safe",
+      "leftDanger": false,
+      "rightDanger": false,
+      "bothSideDanger": false,
+      "buzzerActive": false,
+      "vibrationActive": false,
+      "leftCautiousScore": 90,
+      "rightCautiousScore": 80,
+      "overallCautiousScore": 85,
+      "interpretedState": "No immediate blind spot risk"
+    }
+  },
+  "summary": {
+    "thresholdCm": 70,
+    "warningThresholdCm": 120,
+    "totalReadings": 18,
+    "leftVehicleCount": 3,
+    "rightVehicleCount": 3,
+    "totalVehicleCount": 6,
+    "trafficDistribution": {
+      "leftPercent": 50,
+      "rightPercent": 50
+    },
+    "cautiousScores": {
+      "leftCautiousPercent": 81.5,
+      "rightCautiousPercent": 75.8,
+      "overallCautiousPercent": 78.65
+    },
+    "indicatorUsage": {
+      "leftCorrectSignalMoments": 3,
+      "rightCorrectSignalMoments": 2,
+      "missedSignalMoments": 1
+    },
+    "rollingWindowSize": 18,
+    "lastUpdated": "2026-04-06T10:36:00+05:30"
+  },
+  "charts": {
+    "vehicleCountComparison": [
+      {
+        "side": "Left",
+        "count": 3
+      },
+      {
+        "side": "Right",
+        "count": 3
+      }
+    ],
+    "trafficPercentageOverTime": [
+      {
+        "time": "10:30",
+        "leftPercent": 100,
+        "rightPercent": 0,
+        "totalVehicles": 1
+      },
+      {
+        "time": "10:31",
+        "leftPercent": 0,
+        "rightPercent": 100,
+        "totalVehicles": 1
+      },
+      {
+        "time": "10:32",
+        "leftPercent": 100,
+        "rightPercent": 0,
+        "totalVehicles": 1
+      },
+      {
+        "time": "10:33",
+        "leftPercent": 0,
+        "rightPercent": 100,
+        "totalVehicles": 1
+      },
+      {
+        "time": "10:34",
+        "leftPercent": 50,
+        "rightPercent": 50,
+        "totalVehicles": 2
+      },
+      {
+        "time": "10:35",
+        "leftPercent": 0,
+        "rightPercent": 0,
+        "totalVehicles": 0
+      },
+      {
+        "time": "10:36",
+        "leftPercent": 0,
+        "rightPercent": 0,
+        "totalVehicles": 0
+      }
+    ],
+    "cautiousScoreOverTime": [
+      {
+        "time": "10:30",
+        "leftCautiousPercent": 72.5,
+        "rightCautiousPercent": 80,
+        "overallCautiousPercent": 76.25
+      },
+      {
+        "time": "10:31",
+        "leftCautiousPercent": 90,
+        "rightCautiousPercent": 72.5,
+        "overallCautiousPercent": 81.25
+      },
+      {
+        "time": "10:32",
+        "leftCautiousPercent": 86.67,
+        "rightCautiousPercent": 90,
+        "overallCautiousPercent": 88.34
+      },
+      {
+        "time": "10:33",
+        "leftCautiousPercent": 90,
+        "rightCautiousPercent": 66.67,
+        "overallCautiousPercent": 78.34
+      },
+      {
+        "time": "10:34",
+        "leftCautiousPercent": 90,
+        "rightCautiousPercent": 90,
+        "overallCautiousPercent": 90
+      },
+      {
+        "time": "10:35",
+        "leftCautiousPercent": 70,
+        "rightCautiousPercent": 90,
+        "overallCautiousPercent": 80
+      },
+      {
+        "time": "10:36",
+        "leftCautiousPercent": 90,
+        "rightCautiousPercent": 80,
+        "overallCautiousPercent": 85
+      }
+    ],
+    "recentTrendSampleSize": 18
+  },
+  "events": {
+    "count": 6,
+    "items": [
+      {
+        "id": "evt-demo0001",
+        "timestamp": "2026-04-06T10:36:00+05:30",
+        "leftDistance": 199.09,
+        "rightDistance": 200.72,
+        "leftSwitch": false,
+        "rightSwitch": true,
+        "leftDanger": false,
+        "rightDanger": false,
+        "bothSideDanger": false,
+        "buzzerActive": false,
+        "interpretedState": "No immediate blind spot risk"
+      },
+      {
+        "id": "evt-demo0002",
+        "timestamp": "2026-04-06T10:34:10+05:30",
+        "leftDistance": 198.91,
+        "rightDistance": 200.71,
+        "leftSwitch": true,
+        "rightSwitch": true,
+        "leftDanger": false,
+        "rightDanger": false,
+        "bothSideDanger": false,
+        "buzzerActive": false,
+        "interpretedState": "No immediate blind spot risk"
+      },
+      {
+        "id": "evt-demo0003",
+        "timestamp": "2026-04-06T10:34:00+05:30",
+        "leftDistance": 68.63,
+        "rightDistance": 69.74,
+        "leftSwitch": true,
+        "rightSwitch": true,
+        "leftDanger": true,
+        "rightDanger": true,
+        "bothSideDanger": true,
+        "buzzerActive": true,
+        "interpretedState": "Vehicles detected in both blind spots | left indicator used correctly | right indicator used correctly | buzzer and vibration alert active"
+      },
+      {
+        "id": "evt-demo0004",
+        "timestamp": "2026-04-06T10:33:10+05:30",
+        "leftDistance": 198.73,
+        "rightDistance": 49.62,
+        "leftSwitch": false,
+        "rightSwitch": false,
+        "leftDanger": false,
+        "rightDanger": true,
+        "bothSideDanger": false,
+        "buzzerActive": false,
+        "interpretedState": "Vehicle detected in right blind spot | right indicator missing"
+      },
+      {
+        "id": "evt-demo0005",
+        "timestamp": "2026-04-06T10:32:10+05:30",
+        "leftDistance": 65.1,
+        "rightDistance": 201.86,
+        "leftSwitch": true,
+        "rightSwitch": false,
+        "leftDanger": true,
+        "rightDanger": false,
+        "bothSideDanger": false,
+        "buzzerActive": true,
+        "interpretedState": "Vehicle detected in left blind spot | left indicator used correctly | buzzer and vibration alert active"
+      },
+      {
+        "id": "evt-demo0006",
+        "timestamp": "2026-04-06T10:30:10+05:30",
+        "leftDistance": 5.56,
+        "rightDistance": 200.55,
+        "leftSwitch": true,
+        "rightSwitch": true,
+        "leftDanger": true,
+        "rightDanger": false,
+        "bothSideDanger": false,
+        "buzzerActive": true,
+        "interpretedState": "Vehicle detected in left blind spot | left indicator used correctly | buzzer and vibration alert active"
+      }
+    ]
+  },
+  "health": {
+    "status": "ok",
+    "service": "smart-blindspot-backend",
+    "online": true,
+    "lastUpdated": "2026-04-06T10:36:00+05:30",
+    "totalReadings": 18
+  }
+}
